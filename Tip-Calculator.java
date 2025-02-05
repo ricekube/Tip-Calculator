@@ -4,13 +4,13 @@
 
 	import javax.swing.*;
 
-	public class hw6 implements ActionListener {
+	public class Tip-Calculator implements ActionListener {
 		JTextField j1, j2, j3;
 		JLabel l1, l2, l3;
 		JLabel l4, l5, l6;
 		JButton b1;
 
-		hw6() {
+		Tip-Calculator() {
 			JFrame f = new JFrame("Tip Calculator");
 			l1 = new JLabel("How much would you like to tip? ");
 			l1.setBounds(95,115,200,50);
@@ -45,7 +45,7 @@
 		}
 
 		public static void main(String[] args) {
-			new hw6();
+			new Tip-Calculator();
 		}
 
 		@Override
